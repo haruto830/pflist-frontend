@@ -83,6 +83,7 @@
 export default {
   data() {
     return {
+      page: 1,
       items: [
         {
           src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg'
