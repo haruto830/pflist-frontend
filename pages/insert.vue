@@ -12,6 +12,7 @@
           :counter="1000"
         ></v-textarea>
         <v-text-field label="スキル"></v-text-field>
+        <v-btn color="success">登録</v-btn>
       </v-card>
     </v-container>
   </div>
