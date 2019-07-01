@@ -3,13 +3,12 @@
     <v-container grid-list-md text-xs-center>
       <v-layout row wrap>
         <v-flex xs12>
-          <v-parallax
-            dark
-            src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
-          >
+          <v-parallax dark :src="require('@/assets/facebook.png')">
             <v-layout align-center column justify-center>
-              <h1 class="display-2 font-weight-thin mb-3">fplist</h1>
-              <h4 class="subheading">Build your application today!</h4>
+              <!-- <h1 class="display-2 font-weight-thin mb-3">fplist</h1> -->
+              <h1 class="subheading" style="margin-top:390px;">
+                駆け出したいエンジニアに再び光を
+              </h1>
             </v-layout>
           </v-parallax>
         </v-flex>
