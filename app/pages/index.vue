@@ -19,7 +19,7 @@
                 <v-icon large style="font-size:60px">create</v-icon>
               </span></v-card-text
             >
-            <div style="font-size:16px">
+            <div style="font-size:16px;padding-bottom:12px;">
               ポートフォリオを作る際に迷わなくする
             </div>
           </v-card>
@@ -31,7 +31,7 @@
                 <v-icon large style="font-size:60px">folder_open</v-icon>
               </span></v-card-text
             >
-            <div style="font-size:16px">
+            <div style="font-size:16px;padding-bottom:12px;">
               技術ナレッジを共有するプラットフォーム
             </div>
           </v-card>
@@ -43,7 +43,9 @@
                 <v-icon large style="font-size:60px">how_to_reg</v-icon>
               </span></v-card-text
             >
-            <div style="font-size:16px">エンジニアとの繋がりを増やす</div>
+            <div style="font-size:16px;padding-bottom:12px;">
+              エンジニアとの繋がりを増やす
+            </div>
           </v-card>
         </v-flex>
         <v-flex v-for="i in 8" :key="`3${i}`" xs3>
