@@ -6,40 +6,44 @@
           <v-parallax dark :src="require('@/assets/facebook.png')">
             <v-layout align-center column justify-center>
               <!-- <h1 class="display-2 font-weight-thin mb-3">fplist</h1> -->
-              <h1 class="subheading" style="margin-top:390px;">
+              <h1 style="margin-top:420px;">
                 駆け出したいエンジニアに再び光を
               </h1>
             </v-layout>
           </v-parallax>
         </v-flex>
         <v-flex xs4>
-          <v-card dark color="primary">
+          <v-card>
             <v-card-text class="px-0"
               ><span class="group pa-2">
-                <v-icon large>folder_open</v-icon>
+                <v-icon large style="font-size:60px">create</v-icon>
               </span></v-card-text
             >
-            <div>pflistの簡単な紹介文を書く？？？？？</div>
+            <div style="font-size:16px">
+              ポートフォリオを作る際に迷わなくする
+            </div>
           </v-card>
         </v-flex>
         <v-flex xs4>
-          <v-card dark color="primary">
+          <v-card>
             <v-card-text class="px-0"
               ><span class="group pa-2">
-                <v-icon large>folder_open</v-icon>
+                <v-icon large style="font-size:60px">folder_open</v-icon>
               </span></v-card-text
             >
-            <div>pflistの簡単な紹介文を書く？？？？？</div>
+            <div style="font-size:16px">
+              技術ナレッジを共有するプラットフォーム
+            </div>
           </v-card>
         </v-flex>
         <v-flex xs4>
-          <v-card dark color="primary">
+          <v-card>
             <v-card-text class="px-0"
               ><span class="group pa-2">
-                <v-icon large>folder_open</v-icon>
+                <v-icon large style="font-size:60px">how_to_reg</v-icon>
               </span></v-card-text
             >
-            <div>pflistの簡単な紹介文を書く？？？？？</div>
+            <div style="font-size:16px">エンジニアとの繋がりを増やす</div>
           </v-card>
         </v-flex>
         <v-flex v-for="i in 8" :key="`3${i}`" xs3>
