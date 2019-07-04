@@ -48,32 +48,60 @@
             </div>
           </v-card>
         </v-flex>
-        <v-flex v-for="i in 8" :key="`3${i}`" xs3>
-          <v-card dark color="secondary">
+        <v-flex v-for="i in 8" :key="`3${i}`" xs4 text-xs-left>
+          <v-card>
             <v-card>
               <v-img
+                v-if="i % 2 === 0"
                 src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
+                aspect-ratio="1.50"
+              ></v-img>
+              <v-img
+                v-else
+                :src="require('@/assets/portfolio.png')"
                 aspect-ratio="1.50"
               ></v-img>
               <v-card-title primary-title>
                 <div>
                   <h3 class="headline mb-0">なおとのportfolio</h3>
-                  <div>
-                    こんにちわポートフォリオです。とてもむずかしかったです。
+                  <div class="mb-3">
+                    ポートフォリオを集約するサイトです。技術はNuxt.jsやGoを使用しています。２人でチーム開発をしています。プルリク大歓迎です！！
                   </div>
                   <div>
                     <v-chip outline color="secondary">Vue</v-chip
                     ><v-chip outline color="secondary">TypeScript</v-chip
                     ><v-chip outline color="secondary">Go</v-chip>
+                    <v-chip outline color="secondary">AWS</v-chip>
                   </div>
                 </div>
               </v-card-title>
-              <v-card-actions>
-                <v-btn flat icon color="pink">
-                  <v-icon>favorite</v-icon>
-                </v-btn>
-                <span>10</span>
-              </v-card-actions>
+              <v-list-tile class="grow" style="padding-bottom:16px;">
+                <v-list-tile-avatar color="grey darken-3">
+                  <v-img
+                    class="elevation-6"
+                    src="https://avatars0.githubusercontent.com/nsuzuki7713"
+                  ></v-img>
+                </v-list-tile-avatar>
+
+                <v-list-tile-content>
+                  <v-list-tile-title
+                    >なおと(<a
+                      href="https://twitter.com/naoto_7713?lang=ja"
+                      target="_blank"
+                      >@naoto_7713</a
+                    >)</v-list-tile-title
+                  >
+                  <v-list-tile-sub-title
+                    >更新日:2019/07/04</v-list-tile-sub-title
+                  >
+                </v-list-tile-content>
+                <v-card-actions>
+                  <v-btn flat icon color="pink">
+                    <v-icon>favorite</v-icon>
+                  </v-btn>
+                  <span>10</span>
+                </v-card-actions>
+              </v-list-tile>
             </v-card>
           </v-card>
         </v-flex>
