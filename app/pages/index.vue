@@ -63,7 +63,11 @@
               ></v-img>
               <v-card-title primary-title>
                 <div>
-                  <h3 class="headline mb-0">なおとのportfolio</h3>
+                  <h3 class="headline mb-0">
+                    <nuxt-link :to="{ name: 'detail-id', params: { id: i } }"
+                      >なおとのportfolio</nuxt-link
+                    >
+                  </h3>
                   <div class="mb-3">
                     ポートフォリオを集約するサイトです。技術はNuxt.jsやGoを使用しています。２人でチーム開発をしています。プルリク大歓迎です！！
                   </div>
