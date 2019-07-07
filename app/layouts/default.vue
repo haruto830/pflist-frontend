@@ -2,7 +2,7 @@
   <v-app>
     <v-toolbar>
       <v-toolbar-title
-        >pflist
+        ><nuxt-link to="/">pflist</nuxt-link>
         <span style="font-size:14px;"
           >駆け出したいエンジニアに再び光を</span
         ></v-toolbar-title
