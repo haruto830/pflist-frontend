@@ -100,26 +100,29 @@
             <div v-else>
               <v-card-text class="px-0">
                 <h2>
-                  <a
-                    href="https://github.com/haruto830/pflist-backend"
-                    target="_blank"
-                    >ポートフォリオ</a
-                  >
+                  ポートフォリオ
                 </h2>
+                <a
+                  href="https://github.com/haruto830/pflist-backend"
+                  target="_blank"
+                  >https://github.com/haruto830/pflist-backend</a
+                >
                 <h2>
-                  <a
-                    href="https://github.com/haruto830/pflist-backend"
-                    target="_blank"
-                    >Github</a
-                  >
+                  Github
                 </h2>
+                <a
+                  href="https://github.com/haruto830/pflist-backend"
+                  target="_blank"
+                  >https://github.com/haruto830/pflist-backend</a
+                >
                 <h2>
-                  <a
-                    href="https://github.com/haruto830/pflist-backend"
-                    target="_blank"
-                    >Qiita</a
-                  >
+                  Qiita
                 </h2>
+                <a
+                  href="https://github.com/haruto830/pflist-backend"
+                  target="_blank"
+                  >https://qiita.com/turmericN</a
+                >
               </v-card-text>
             </div>
           </v-card>
